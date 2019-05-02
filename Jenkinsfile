@@ -8,4 +8,8 @@ stage('compile-package')
 {
 sh 'mvn package'
 }
+  stage('Deploy')
+  {
+  sh 'echo "Done execution"'
+  }
 }
