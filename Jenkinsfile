@@ -2,7 +2,7 @@ node
 {
 stage('access git repository')
 {
-git 'https://github.com/rakshajain0803/Helloworld_Git_Jenkins_pro.git/my-app'
+git 'https://github.com/rakshajain0803/Helloworld_Git_Jenkins_pro.git'
 }
 stage('compile-package')
 {
